@@ -38,7 +38,7 @@ body {
 
 header {
   width: 100%;
-  padding: 10px 0 6px;
+  padding: 16px 0 6px;
   display: flex; }
 
 .input-search {
@@ -49,8 +49,8 @@ header {
   margin-left: 8px;
   padding: 0 30px;
   background-color: #eaeaeb;
-  border: 0.5px solid #0000001a;
-  border-radius: 10px; }
+  border-radius: 10px;
+  border: none; }
   .input-search:focus {
     outline: none; }
 
@@ -66,5 +66,29 @@ header {
   align-self: center;
   margin: 0 10px;
   cursor: pointer; }
+
+.search-tabs {
+  width: 100%;
+  overflow-x: hidden; }
+  .search-tabs ul {
+    display: flex;
+    list-style: none;
+    margin-left: 8px; }
+  .search-tabs li {
+    margin-right: 5px;
+    background: #ffffff;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid rgba(60, 60, 67, 0.18); }
+  .search-tabs a {
+    text-decoration: none;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 11px;
+    color: #262626; }
+  .search-tabs .tab-icon {
+    width: 13px;
+    margin-right: 5px; }
 
 /*# sourceMappingURL=search.css.map */
