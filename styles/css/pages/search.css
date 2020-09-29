@@ -7,10 +7,6 @@ html {
   height: 100%;
   width: 100%; }
 
-*,
-p {
-  font-family: Arial; }
-
 body {
   max-width: 375px;
   margin: auto;
@@ -46,8 +42,8 @@ header {
   height: 36px;
   font-size: 16px;
   font-weight: 400;
-  margin-left: 8px;
   padding: 0 30px;
+  margin-left: 10px;
   background-color: #eaeaeb;
   border-radius: 10px;
   border: none; }
@@ -56,7 +52,7 @@ header {
 
 .search-icon {
   width: 14px;
-  margin-left: 15px;
+  margin-left: 20px;
   position: absolute;
   align-self: center;
   cursor: pointer; }
@@ -69,11 +65,11 @@ header {
 
 .search-tabs {
   width: 100%;
-  overflow-x: hidden; }
+  overflow-x: auto; }
   .search-tabs ul {
     display: flex;
     list-style: none;
-    margin-left: 8px; }
+    margin-left: 10px; }
   .search-tabs li {
     margin-right: 5px;
     background: #ffffff;
@@ -90,5 +86,15 @@ header {
   .search-tabs .tab-icon {
     width: 13px;
     margin-right: 5px; }
+
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 10px; }
+
+.post-img {
+  flex: auto 1;
+  margin: .5px; }
 
 /*# sourceMappingURL=search.css.map */

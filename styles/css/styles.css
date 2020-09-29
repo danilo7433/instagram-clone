@@ -1,31 +1,22 @@
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 body,
 html {
   height: 100%;
-  width: 100%;
-}
-
-*,
-p {
-  font-family: Arial;
-}
+  width: 100%; }
 
 body {
   max-width: 375px;
   margin: auto;
-  background-color: #fafafa;
-}
+  background-color: #fafafa; }
 
 .tab-bar .action-icon {
   width: 24px;
   height: auto;
   cursor: pointer;
-  margin: 0 15px;
-}
+  margin: 0 15px; }
 
 .tab-bar {
   display: flex;
@@ -37,10 +28,8 @@ body {
   position: sticky;
   bottom: 0;
   padding: 10px 0;
-  border-top: 1px solid #e2e2e2;
-}
-.tab-bar .action-icon {
-  width: 22px;
-}
+  border-top: 1px solid #e2e2e2; }
+  .tab-bar .action-icon {
+    width: 22px; }
 
 /*# sourceMappingURL=styles.css.map */

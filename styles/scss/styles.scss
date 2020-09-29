@@ -3,10 +3,6 @@
 @import "./mixins.scss";
 @import "./extends.scss";
 
-*,
-p {
-  font-family: Arial;
-}
 
 body {
   max-width: 375px;
